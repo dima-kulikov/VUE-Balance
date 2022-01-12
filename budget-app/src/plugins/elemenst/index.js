@@ -22,4 +22,4 @@ const elements = [
 
 locale.use(lang);
 
-elements.forEach( El => Vue.use(El, { locale }));
+elements.forEach(El => Vue.use(El, { locale }));

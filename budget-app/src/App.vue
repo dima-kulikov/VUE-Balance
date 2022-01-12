@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <BudgetList />
+    <BudjetList />
   </div>
 </template>
 
 <script>
-import BudjetList from '@/components/BudjetList.vue';
+import BudjetList from "@/components/BudjetList";
 
 export default {
-  name: 'App',
-  comment: {
+  name: 'app',
+  components: {
     BudjetList,
   },
   data: () => ({
+    list:{
     1: {
       type: 'INCOME',
       value: 100,
@@ -25,8 +26,9 @@ export default {
       comment: 'Some outcome comment',
       id: 2,
     },
+    }
   }),
-}
+};
 </script>
 
 <style>
