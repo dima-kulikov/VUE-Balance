@@ -1,6 +1,6 @@
 <template>
     <div class="budget-list-wrap">dsadsad
-        <el-card :header="header"></el-card >
+        <!-- <el-card :header="header"></el-card > -->
         <h2>sdfdf</h2>
     </div>
 </template>

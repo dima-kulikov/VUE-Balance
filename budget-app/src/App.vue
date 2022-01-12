@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <budjet-list></budjet-list>
+    <h1>hello</h1>
+    <!-- <budjet-list></budjet-list> -->
+    <p>hbhbh</p>
   </div>
 </template>
 
 <script>
-import BudjetList from "./components/BudjetList.vue";
+// import BudjetList from "./components/BudjetList.vue";
 
 export default {
   name: 'app',
-  components: {
-    BudjetList,
-  },
+  // components: {
+  //   BudjetList,
+  // },
   data: () => ({
     list:{
     1: {
