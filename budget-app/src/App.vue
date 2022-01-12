@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <BudjetList />
+    <budjet-list></budjet-list>
   </div>
 </template>
 
 <script>
-import BudjetList from "@/components/BudjetList";
+import BudjetList from "./components/BudjetList.vue";
 
 export default {
   name: 'app',
